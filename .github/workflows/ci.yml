@@ -51,5 +51,8 @@ jobs:
     - name: mockup_init
       run: npm run mockup_init
 
+    - name: gen-binding
+      run: npm run gen-binding
+
     - name: test
       run: npm run test
