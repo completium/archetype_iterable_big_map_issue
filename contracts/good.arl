@@ -1,0 +1,12 @@
+
+archetype good
+
+asset a identified by id to big_map {
+  id:     nat;
+  value:  bytes;
+}
+
+getter exec(i: nat): bytes {
+  var res ?= a[i];
+  return res.value
+}
